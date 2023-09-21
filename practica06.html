@@ -53,13 +53,13 @@
         <input type="submit" value="Iniciar Sesión">
     </form>
     <script>
-        const loginform = document.getElementById(formulario)
+        const loginform = document.getElementById("formulario")
         loginform.addEventListener("submit", evento =>{
             evento.preventDefault()
             let u = document.getElementById("user").value
             let p = document.getElementById("password").value
             // alert("usuario"+u+"contraseña"+p)
-            alert(`usuario $(u) y contraseña $(p)`)
+            alert(`usuario ${u} y contraseña ${p}`)
         })
     </script>
 </body>

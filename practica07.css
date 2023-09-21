@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: cursive;
+}
+h1{
+   text-align: center; 
+}
+form{
+    box-shadow: 10px 20px 15px;
+    width: 500px;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid lightblue;
+}
+input[type="submit"]{
+    color:aliceblue;
+    background-color:rgb(43, 43, 187);
+    
+}
+label{
+    display: block;
+    
+}
+fieldset{
+    border-color: white;
+    padding: 10px;
+}
